@@ -16,4 +16,4 @@ wget ${LOCATION_BASE}/MP.zip
 unzip -o MP.zip
 wget ${LOCATION_BASE}/AZ.zip
 unzip -o AZ.zip
-
+rm US.zip PR.zip VI.zip GU.zip MP.zip AZ.zip
