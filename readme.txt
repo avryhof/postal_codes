@@ -1,17 +1,19 @@
 Readme for GeoNames Postal Code files :
 
-allCountries.zip: all countries, for the UK only the outwards codes, the UK total codes are in GB_full.csv.zip 
+allCountries.zip: all supported countries, for the UK only the outwards codes, the UK total codes are in GB_full.csv.zip 
 GB_full.csv.zip the full codes for the UK, ca 1.7 mio rows
 <iso countrycode>: country specific subset also included in allCountries.zip
-This work is licensed under a Creative Commons Attribution 3.0 License.
+This work is licensed under a Creative Commons Attribution 4.0 License.
 This means you can use the dump as long as you give credit to geonames (a link on your website to www.geonames.org is ok)
 see http://creativecommons.org/licenses/by/3.0/
-UK (GB_full.csv.zip): Contains Royal Mail data Royal Mail copyright and database right 2017.
+UK (GB_full.csv.zip): Contains Royal Mail data Royal Mail copyright and database right 2020.
 The Data is provided "as is" without warranty or any representation of accuracy, timeliness or completeness.
 
 This readme describes the GeoNames Postal Code dataset.
 The main GeoNames gazetteer data extract is here: http://download.geonames.org/export/dump/
 
+
+Supported countries: nearly 100 countries are currently supported. New countries area added when the national postal service starts publishing data under a compatible license.
 
 For many countries lat/lng are determined with an algorithm that searches the place names in the main geonames database 
 using administrative divisions and numerical vicinity of the postal codes as factors in the disambiguation of place names. 
