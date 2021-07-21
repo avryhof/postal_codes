@@ -11,3 +11,4 @@ dump/MP.zip filter=lfs diff=lfs merge=lfs -text
 dump/PR.zip filter=lfs diff=lfs merge=lfs -text
 dump/US.zip filter=lfs diff=lfs merge=lfs -text
 dump/VI.zip filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
