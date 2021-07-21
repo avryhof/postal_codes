@@ -53,6 +53,11 @@ def get_gazzetteer_data():
             os.path.join(file_path, extra_file),
         )
 
+    print("Download Feature Codes.")
+    urlretrieve(
+        "http://www.geonames.org/export/codes.html", os.path.join(file_path, "codes.html"),
+    )
+
 
 if __name__ == "__main__":
     get_zip_code_data()
