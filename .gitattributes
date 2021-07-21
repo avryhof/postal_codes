@@ -1,0 +1,13 @@
+zip/AZ.zip filter=lfs diff=lfs merge=lfs -text
+zip/GU.zip filter=lfs diff=lfs merge=lfs -text
+zip/MP.zip filter=lfs diff=lfs merge=lfs -text
+zip/PR.zip filter=lfs diff=lfs merge=lfs -text
+zip/US.zip filter=lfs diff=lfs merge=lfs -text
+zip/VI.zip filter=lfs diff=lfs merge=lfs -text
+dump/alternateNamesV2.zip filter=lfs diff=lfs merge=lfs -text
+dump/AZ.zip filter=lfs diff=lfs merge=lfs -text
+dump/GU.zip filter=lfs diff=lfs merge=lfs -text
+dump/MP.zip filter=lfs diff=lfs merge=lfs -text
+dump/PR.zip filter=lfs diff=lfs merge=lfs -text
+dump/US.zip filter=lfs diff=lfs merge=lfs -text
+dump/VI.zip filter=lfs diff=lfs merge=lfs -text
