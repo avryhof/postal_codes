@@ -52,3 +52,8 @@ def get_gazzetteer_data():
             "http://download.geonames.org/export/{}/{}".format(file_path, extra_file),
             os.path.join(file_path, extra_file),
         )
+
+
+if __name__ == "__main__":
+    get_zip_code_data()
+    get_gazzetteer_data()
